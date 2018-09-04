@@ -1,0 +1,11 @@
+$(document).ready(function(){
+
+    $('.close-button').click(function() {
+        $('.messages').hide();
+    });
+    
+    $('.show-button').click(function() {
+        $('.messages').show();
+    });
+    
+});
